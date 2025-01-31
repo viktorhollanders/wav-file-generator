@@ -22,12 +22,12 @@ These are the make command for the project
   make clean_wav
 ```
 
-To create a a wav file you can run with the following command line arguments <wave file name> <frequency> <duration>
+To create a a wav file you can run with the following command line arguments [wave_file_name], [frequency],[duration]
 
 Where :
-  - <wave file name> is a string,
-  - <frequency> is a int,
-  - <duration> is a real number e.g 0.5
+  - [wave_file_name] is a string the file extension will be added by the program. 
+  - [frequency] is a int,
+  - [duration] is a real number e.g 0.5
 
 ```
   release.out
