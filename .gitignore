@@ -1,0 +1,48 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+/Debug/
+/Release/
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignore dependency files
+*.d
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+*~
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore temporary files from editors
+*.tmp
+*.log
+
+
+debug
+debug.dSYM/
