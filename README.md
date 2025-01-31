@@ -2,7 +2,9 @@
 
 This is a wav file generator that I built as part of my c++ programming course ar Reykjavik University. Using the 98 standard.
 
-The version that was solved was b or 85% of the assignment.
+The version that was solved was part b.
+
+## Usage
 
 These are the make command for the project
 
