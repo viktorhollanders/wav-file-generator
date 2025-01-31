@@ -5,6 +5,7 @@ This is a wav file generator that I built as part of my c++ programming course a
 The version that was solved was b or 85% of the assignment.
 
 These are the make command for the project
+
 ```
   //create the binary files
   make
@@ -22,17 +23,18 @@ These are the make command for the project
   make clean_wav
 ```
 
-To create a a wav file you can run with the following command line arguments [wave_file_name], [frequency],[duration].
+To create a a wav file you can run with the following command line arguments `[file_name]`, `[frequency]`,`[duration]`.
 
 Where :
-  - [wave_file_name] is a string the file extension will be added by the program.
-  - [frequency] is a int,
-  - [duration] is a real number e.g 0.5
+
+- `[file_name]` is a string the file extension will be added by the program.
+- `[frequency]` is a int,
+- `[duration]` is a real number e.g 0.5
 
 ```
-  release.out
+  release.out [file_name] [frequency] [duration]
 ```
 
-If no arguments are passed the program will default to its default parameters. 
+If no arguments are passed the program will default to its default parameters.
 
 Author: Viktor Hollanders
