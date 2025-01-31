@@ -9,19 +9,19 @@ The version that was solved was part b.
 These are the make command for the project
 
 ```
-  //create the binary files
+  # Create the binary files
   make
 
-  // creates the out files
+  # Creates the out files
   make release
 
-  // creates the debug target
+  # Creates the debug target
   make debug
 
-  // cleans removes everything except the source code
+  # Cleans removes everything except the source code
   make clean
 
-  // Removes all wav files from the project
+  # Removes all wav files from the project
   make clean_wav
 ```
 
