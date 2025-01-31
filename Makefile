@@ -10,12 +10,12 @@ all: $(TARGETS)
 
 release:
 	$(info Building out files $@)
-	$(CXX) $(CXXFLAGS) $(CXXFILES) -o $@
+	$(CXX) $(CXXFLAGS) $(CXXFILES) -o $@.out
 	$(info Built $@)
 
 debug:
 	$(info Building $@)
-	$(CXX) $(CXXFLAGS) $(CXXDEBUGFLAGS) $(CXXFILES) -o $@
+	$(CXX) $(CXXFLAGS) $(CXXDEBUGFLAGS) $(CXXFILES) -o $@.out
 	$(info Built $@)
 
 clean:
