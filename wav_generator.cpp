@@ -158,7 +158,6 @@ int main(int argc, char *argv[]) {
   fileName[fileNameLen + 3] = 'v';
   fileName[fileNameLen + 4] = '\0';
 
-
   // Write to file
   std::ofstream wav(fileName, std::ios::binary);
 
@@ -171,6 +170,3 @@ int main(int argc, char *argv[]) {
 
   return 0;
 }
-
-
-
